@@ -1,0 +1,40 @@
+var keyword is use to acces any things only in the function .
+let and var we can reintilize but not const .
+
+variable Nameing :- 
+Number first,$ first,Camelcase,No space,(meaingfull),No reserved keyword
+
+JAVASCRIPT DATA TYPE PRIMITIVE,NON PRIMITIVE
+PRIMITIVE-Number,Sting,char,Boolean,undefind,long
+
+Arithmetic-Operator- + - * / % **(power) unary(++)
+Assignment operator- =
+comparission Opearator- <, > <= >=, ==,===,!==
+Ternary Operator- Syntax (condition)?true:false;
+
+logical operator-And(&&) or(||) Not(!)
+And-both are have to true
+Or-Anyone of them have to true
+Not-!(True)=false , !(false)=True
+
+NON Boolean-1-(fase||"gueg")->True
+            2-
+
+Bitwise Operator-And(&),Or(|),Not(!) ,<<,>>,xor(^)
+
+break it is use to break stop the itration .
+
+continue is use to skip the current postion and go to next 
+String
+String is the combination of charatchter .
+To know type you have to use console.log(typeof name); 
+in string if you change the ine you can use ``(back tikes);
+
+`${op1}` the value is print .
+`${op2}` if you want to add this you assign `${op1}${op2}`; 
+
+
+Split()-It is a method which is to convert string into an array 
+Join()-It is a method which is use to convert a array in to a string .
+       we can also separet the string by some parameter, by defult it separeted by , .
+ 
