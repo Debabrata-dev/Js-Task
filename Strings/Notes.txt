@@ -1,0 +1,2 @@
+Allow you to split string into an array of substring based on given parameteres.
+join- this method use to take all the item of an array and convert into an string .

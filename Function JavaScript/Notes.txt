@@ -1,0 +1,51 @@
+It is block of code use to do some task
+function name();
+function name(a,b);//Parametrized
+function getAdd(a,b){//return type
+    let sum=a+b;
+    return sum; 
+} 
+let ans=getAdd(23,23);
+console.log(ans);
+
+Arrow function
+let getSequare=(a,b)=>{
+    let ans=a**b;
+    return ans;
+}
+console.log(getSequare(2,2));
+
+Array - Referance type/Non primitve type
+  
+Object- An object is a collection of properties of and a propeties of name and key value .
+
+let obj={
+    "First Name":"Barun",
+    Age:24,
+    Salary:1800000,
+    getWork:function(){
+        console.log("Softwear Developer");
+    }
+}
+obj.getWork();
+array is a collection of item .
+///TO create
+let arr=[12,32,23,43,34];
+//Array constructor
+let arr=new Array(23,24,25,26,27,28);
+console.log(arr);
+//Built in method of array
+push(),pop(),shift(),unshift(),slice(),splice(),map(),filter(),reduce(),
+sort(),indexof(),find()
+
+shift and unshift-
+shift()-it is use in delete the element inleft side .
+unshift()-it is use to add element in left side .
+
+slice-
+the slice() it is use select element in array as new array.
+
+splice-
+this is use to remove the element and replace the element in the array.
+
+map-It create a new array by calling function on every elemetn of the orignal array and storing the result in a new array .
