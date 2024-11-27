@@ -1,13 +1,10 @@
-//sfit to the top
-sayName("dinesh")
-function sayName(finalName){
-    console.log(finalName);
+function greetMe(greet,fullName){
+    console.log("hello",fullName);
+    greet();
 }
-console.log(age)
-var age=89;
 
-class Human{
-  danger=90;
+function greet(){
+    console.log("Greeting for the day")
 }
-const obj1=new Human();
-console.log(obj1);
+
+greetMe(greet,"Tea");
